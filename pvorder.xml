@@ -1,0 +1,47 @@
+<s11:Envelope xmlns:s11='http://schemas.xmlsoap.org/soap/envelope/'>
+  <s11:Body>
+    <ns1:PVOrder xmlns:ns1='https://system.globalsign.com/kb/ws/v1/'>
+<Request>
+            <OrderRequestHeader>              
+               <AuthToken>                 
+                  <UserName>*****</UserName>                 
+                  <Password>*****</Password>
+               </AuthToken>
+            </OrderRequestHeader>
+            <OrderRequestParameter>
+               <ProductCode>PV</ProductCode>
+               <OrderKind>new</OrderKind>
+               <Licenses>1</Licenses>
+               <ValidityPeriod>
+                  <Months>12</Months>
+               </ValidityPeriod>
+               <CSR>-----BEGIN CERTIFICATE REQUEST-----
+MIICqjCCAZICAQAwZTELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk5IMRMwEQYDVQQH
+DApQb3J0c21vdXRoMRMwEQYDVQQKDApHbG9iYWxTaWduMR8wHQYDVQQDDBZnbG9i
+YWxzaWduLXN1cHBvcnQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAzYl5jUPJDg8xPzuwsNiso7Wjl+9djzZZAwl5yUL0avThKhIUHhs61AR7SxNg
+FN8rbfs2snGIaYVhmmWwZfV26TO8ehZZyqJ8bHdNV2TH/WQCuqVATNq18eb1ixqC
+A4U2LEJaGtw08u/c2e+QT0K64Ny60tIrAmG+0hNpN35HhyjLnFgsovsMx1VYZ1h6
+r74YzO1sgr5STLsRefJR0KVK1vpUZyRvE237xuMQPeNq9dJxFuQbWPQlRQSNmj35
+q0wjgnhfaaBwqphGsgn+BwLXovq+/Xiz3MxLncrdNfATuc04ROqETwE1DY4fYkup
+MSMYMqfl1E+331P5vdWnCjuIZQIDAQABoAAwDQYJKoZIhvcNAQELBQADggEBAAu1
+jlsynianoFKF6VKJjlvkcY/og6vZjAtfQvHdiiCFz+/znF0ojpAtgcEI2LbLocrR
+mYZByGrRZ6bJC2y+aPCSaGKMdLwzOIs1ZRGbo//dmyPqN/Zb6EVitnpOizc9S1GM
+5aaIa80F6hyfTzCeu/8psUZWszLX9nkkarluVu/T3+ItYn3YtfG0ghUef5i2ZKgF
+sYdxY1AehBnImlZqc2/I8BZl1bFe8dcWZfDyuHHx+X/bQRYRyMDGPKDkr8hlygn4
+AzMwF/TUYTurZMLEyj9jbs/O91leiKQGvsnLskDsD9PttUnQKlOq1fkku4hWxSva
+0P/Tu8xwhFxsq7Bdizk=
+-----END CERTIFICATE REQUEST-----</CSR>
+            </OrderRequestParameter>
+            <MSSLProfileID>61059_SMS2_5329</MSSLProfileID>
+            <MSSLDomainID>DSMS20000023047</MSSLDomainID>
+            <ContactInfo>
+               <FirstName>klein_sky</FirstName>
+               <LastName>klein</LastName>
+               <Phone>6035707060</Phone>
+               <Email>klein_sky@bah.com</Email>
+            </ContactInfo>
+         </Request>
+    </ns1:PVOrder>
+  </s11:Body>
+</s11:Envelope>

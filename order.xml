@@ -1,0 +1,114 @@
+<s11:Envelope xmlns:s11='http://schemas.xmlsoap.org/soap/envelope/'>
+  <s11:Body>
+    <ns1:PVOrder xmlns:ns1='https://system.globalsign.com/kb/ws/v1/'>
+<!-- optional -->
+      <Request>
+        <OrderRequestHeader>
+<!-- optional -->
+          <AuthToken>
+<!-- optional -->
+            <UserName>?XXX?</UserName>
+<!-- optional -->
+            <Password>?XXX?</Password>
+          </AuthToken>
+        </OrderRequestHeader>
+        <OrderRequestParameter>
+          <ProductCode>?XXX?</ProductCode>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <BaseOption>?XXX?</BaseOption>
+          <OrderKind>?XXX?</OrderKind>
+          <Licenses>?XXX?</Licenses>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <Options>
+<!-- from 0 to unbounded -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+            <Option>
+              <OptionName>?XXX?</OptionName>
+              <OptionValue>?XXX?</OptionValue>
+            </Option>
+          </Options>
+          <ValidityPeriod>
+            <Months>?XXX?</Months>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+            <NotBefore>?XXX?</NotBefore>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+            <NotAfter>?XXX?</NotAfter>
+          </ValidityPeriod>
+          <CSR>?XXX?</CSR>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <RenewalTargetOrderID>?XXX?</RenewalTargetOrderID>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <TargetCERT>?XXX?</TargetCERT>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <SpecialInstructions>?XXX?</SpecialInstructions>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <Coupon>?XXX?</Coupon>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <Campaign>?XXX?</Campaign>
+        </OrderRequestParameter>
+        <MSSLProfileID>?XXX?</MSSLProfileID>
+        <MSSLDomainID>?XXX?</MSSLDomainID>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+        <SubID>?XXX?</SubID>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+        <PVSealInfo>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <AddressLine1>?XXX?</AddressLine1>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <AddressLine2>?XXX?</AddressLine2>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <AddressLine3>?XXX?</AddressLine3>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <PostalCode>?XXX?</PostalCode>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <Phone>?XXX?</Phone>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <Fax>?XXX?</Fax>
+        </PVSealInfo>
+        <ContactInfo>
+          <FirstName>?XXX?</FirstName>
+          <LastName>?XXX?</LastName>
+          <Phone>?XXX?</Phone>
+          <Email>?XXX?</Email>
+        </ContactInfo>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+        <SANEntries>
+<!-- from 0 to unbounded -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <SANEntry>
+            <SANOptionType>?XXX?</SANOptionType>
+            <SubjectAltName>?XXX?</SubjectAltName>
+          </SANEntry>
+        </SANEntries>
+<!-- optional -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+        <Extensions>
+<!-- from 0 to unbounded -->
+<!-- This element may be left empty if xsi:nil='true' is set. -->
+          <Extension>
+            <Name>?XXX?</Name>
+            <Value>?XXX?</Value>
+          </Extension>
+        </Extensions>
+      </Request>
+    </ns1:PVOrder>
+  </s11:Body>
+</s11:Envelope>
