@@ -1,40 +1,39 @@
-<s11:Envelope xmlns:s11='http://schemas.xmlsoap.org/soap/envelope/'>
+  <s11:Envelope xmlns:s11='http://schemas.xmlsoap.org/soap/envelope/'>
   <s11:Body>
-    <ns1:PVOrder xmlns:ns1='https://system.globalsign.com/kb/ws/v1/'>
+    <ns1:PVOrder xmlns:ns1='https://test-gcc.globalsign.com/kb/ws/v1/ManagedSSLService'>
 <Request>
             <OrderRequestHeader>              
                <AuthToken>                 
-                  <UserName>*****</UserName>                 
-                  <Password>*****</Password>
+                  <UserName>PAR44110_kleinsmk</UserName>                 
+                  <Password>testpassword1!</Password>
                </AuthToken>
             </OrderRequestHeader>
             <OrderRequestParameter>
                <ProductCode>PV</ProductCode>
-               <OrderKind>new</OrderKind>
+               <OrderKind>Renewal</OrderKind>
                <Licenses>1</Licenses>
                <ValidityPeriod>
                   <Months>12</Months>
                </ValidityPeriod>
                <CSR>-----BEGIN CERTIFICATE REQUEST-----
-MIICqjCCAZICAQAwZTELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk5IMRMwEQYDVQQH
-DApQb3J0c21vdXRoMRMwEQYDVQQKDApHbG9iYWxTaWduMR8wHQYDVQQDDBZnbG9i
-YWxzaWduLXN1cHBvcnQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
-AQEAzYl5jUPJDg8xPzuwsNiso7Wjl+9djzZZAwl5yUL0avThKhIUHhs61AR7SxNg
-FN8rbfs2snGIaYVhmmWwZfV26TO8ehZZyqJ8bHdNV2TH/WQCuqVATNq18eb1ixqC
-A4U2LEJaGtw08u/c2e+QT0K64Ny60tIrAmG+0hNpN35HhyjLnFgsovsMx1VYZ1h6
-r74YzO1sgr5STLsRefJR0KVK1vpUZyRvE237xuMQPeNq9dJxFuQbWPQlRQSNmj35
-q0wjgnhfaaBwqphGsgn+BwLXovq+/Xiz3MxLncrdNfATuc04ROqETwE1DY4fYkup
-MSMYMqfl1E+331P5vdWnCjuIZQIDAQABoAAwDQYJKoZIhvcNAQELBQADggEBAAu1
-jlsynianoFKF6VKJjlvkcY/og6vZjAtfQvHdiiCFz+/znF0ojpAtgcEI2LbLocrR
-mYZByGrRZ6bJC2y+aPCSaGKMdLwzOIs1ZRGbo//dmyPqN/Zb6EVitnpOizc9S1GM
-5aaIa80F6hyfTzCeu/8psUZWszLX9nkkarluVu/T3+ItYn3YtfG0ghUef5i2ZKgF
-sYdxY1AehBnImlZqc2/I8BZl1bFe8dcWZfDyuHHx+X/bQRYRyMDGPKDkr8hlygn4
-AzMwF/TUYTurZMLEyj9jbs/O91leiKQGvsnLskDsD9PttUnQKlOq1fkku4hWxSva
-0P/Tu8xwhFxsq7Bdizk=
+MIICozCCAYsCAQAwXjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAlZBMQ8wDQYDVQQH
+EwZNY2xlYW4xDDAKBgNVBAoTA0JBSDEMMAoGA1UECxMDQ1NOMRUwEwYDVQQDEwxz
+a3kudGVzdC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD6oB0u
+fUeAfoGtRy4voQO3xNcOApMcfjKYt7/JsqzIfwln+f5gmUi6xmaVFNCOBi0U3o1i
+7HO+bZo4ZMD4GycF+XAfXwcFxd7L5lWhZufEh9bzYt9cnLkesOpAfPSupsD15BMn
+qwxUBb/6QobgRZPAkgQdIHBnGnDV/4w7W3EcU7BhdItY3JXPZUne5ZtRPM+fMDqx
+GR9tgoMULXTgyw/qqQAzvvvxg9YBDHDSs3jb5523dhzs/9v1QsAMtOB6aiMUqZh+
+efTYqbflsaaxpYo6BK9uQoo/m1l57X1Ez97VTBbLUl30TWDAbYtgQBPzegqKYOJA
+SERTxeWA9ryPL/ArAgMBAAGgADANBgkqhkiG9w0BAQsFAAOCAQEAzjtutDbYXjBd
+SsBV76ww+my7jDv9sXNsYFcI5vhayL3rgVr3YQg3Cdy8OMZqn2fr9d9Vzanro5dC
+wixDTHGdhcvcVcIpGizhySFRFuCsGhu7nLsMWHpsWTzyeXrjp//KdsEShl1nVv+o
+uj0Y6WF/CZedNZHJNxhh+9mzrcUUzJe5sk+vjk6U4jCECzxzBy1z5waR/tVI1te0
+g7OQfiCJgbjSxi9bJq2euWAfFC4w0tqqKrIXTtvwXaSMAB4eHeBZQ/q+M8c6Cqi4
+tOmQQdKfVBP01de1JRNXo7NJHNij+KGiUPfBbEWB1F0+ehOTB/Vva4wvP8+DKdY2
+6wzH8a02ew==
 -----END CERTIFICATE REQUEST-----</CSR>
             </OrderRequestParameter>
-            <MSSLProfileID>61059_SMS2_5329</MSSLProfileID>
-            <MSSLDomainID>DSMS20000023047</MSSLDomainID>
+            <MSSLProfileID>44110_SMS2_2825</MSSLProfileID>
             <ContactInfo>
                <FirstName>klein_sky</FirstName>
                <LastName>klein</LastName>
